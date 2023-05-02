@@ -7,6 +7,9 @@ buildscript {
         
     }
     dependencies {
+        // Firebase 모듈
+        implementation platform('com.google.firebase:firebase-bom:29.0.1')
+        implementation 'com.google.firebase:firebase-analytics-ktx'
         classpath 'com.android.tools.build:gradle:3.5.3'
         
         // NOTE: Do not place your application dependencies here; they belong
